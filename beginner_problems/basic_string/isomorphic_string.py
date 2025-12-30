@@ -1,8 +1,8 @@
 =================================================================
-205. Isomorphic Strings
+# 205. Isomorphic Strings
 =================================================================
 
-Given two strings s and t, determine if they are isomorphic.
+'''Given two strings s and t, determine if they are isomorphic.
 Two strings s and t are isomorphic if the characters in s can be replaced to get t.
 All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.
 
@@ -24,9 +24,9 @@ Example 3:
 
 Input: s = "paper", t = "title"
 Output: true
-
+'''
 =================================================================
-Brute Force
+# Brute Force
 =================================================================
 class Solution(object):
     def isIsomorphic(self, s, t):
@@ -72,7 +72,7 @@ if same add i + 1
 else return False
 """
 =================================================================
-Optimal Solution
+# Optimal Solution
 =================================================================
 class Solution(object):
     def isIsomorphic(self, s, t):
